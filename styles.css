@@ -1,0 +1,82 @@
+/* Add this to your styles.css file */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fdf5df; /* Soft beige background */
+  color: #172d13; /* Dark green text for contrast */
+}
+
+header {
+  background-color: #5ebec4; /* Calming blue header */
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main {
+  padding: 20px;
+}
+
+.comparison-table h2 {
+  background-color: #f92c85; /* Bright pink for section titles */
+  color: #000000;
+  padding: 5px;
+  margin-top: 0;
+}
+.comparison-table h4 {
+  background-color: #de5935; /* Bright pink for section titles */
+  color: #000000;
+  padding: 5px;
+  margin-top: 0;
+}
+.comparison-table h4 {
+  background-color: #de5935; /* Bright pink for section titles */
+  color: #000000;
+  padding: 5px;
+  margin-top: 0;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #74f0ed; /* Light blue borders */
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #6bb77b; /* Light green column headers */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #de5935; /* Alternating row colors */
+}
+
+tr:nth-child(odd) {
+  background-color: #f7cd46;
+}
+
+footer {
+  background-color: #172d13;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
